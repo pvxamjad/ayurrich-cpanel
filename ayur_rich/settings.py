@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'ayur_rich.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ayurrich',  # Replace with your database name
-        'USER': 'ayurrich',  # Replace with your database username
-        'PASSWORD': ']-Oq%)HQJ,W=', 
-        'HOST': 'localhost', 
-        'PORT':'3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
         }
 }
 

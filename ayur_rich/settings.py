@@ -83,8 +83,8 @@ DATABASES = {
         'USER': 'ayurrich',  # Replace with your database username
         'PASSWORD': ']-Oq%)HQJ,W=', 
         'HOST': 'localhost', 
-        'PORT': '3306',
-    }
+        'PORT':'3306',
+        }
 }
 
 

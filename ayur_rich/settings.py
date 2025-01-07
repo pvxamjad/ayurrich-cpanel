@@ -19,8 +19,8 @@ SECRET_KEY = 'django-insecure-eit(d(=%b-b*u$bkii(i_kuv-56lavdq(0$aw_xus6%(z4bnbx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://ayurrich-production.up.railway.app']
+ALLOWED_HOSTS = ['*','https://ayurrich.in','ayurrich.in']
+CSRF_TRUSTED_ORIGINS = ['https://ayurrich.in','ayurrich.in']
 
 
 # Application definition

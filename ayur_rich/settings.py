@@ -78,13 +78,13 @@ WSGI_APPLICATION = 'ayur_rich.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'eUMEycollyPFZVPhnDsgwGIExLgzydvQ',
-        'HOST': 'autorack.proxy.rlwy.net',
-        'PORT': '59277',
-    }
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ayurrich',  # Replace with your database name
+        'USER': 'ayurrich',  # Replace with your database username
+        'PASSWORD': ']-Oq%)HQJ,W=', 
+        'HOST': 'localhost', 
+        'PORT': '3306',
+    }
 }
 
 
